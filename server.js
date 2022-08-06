@@ -55,4 +55,5 @@ app.route('/updateRate').post(rateController.updateRate);
 //LocalHost HTTP//
 // app.listen(8080, "127.0.0.1"); 
 
-app.listen(port, () => console.log('Example app listening on port ${port}!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
